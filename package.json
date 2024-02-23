@@ -1,0 +1,18 @@
+{
+  "name": "task-5-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "currentWeather": "node index.js",
+    "dev": "node -r dotenv/config index.js -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
